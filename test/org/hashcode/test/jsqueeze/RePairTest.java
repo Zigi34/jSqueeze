@@ -34,9 +34,7 @@ public class RePairTest {
 				if (encoded.length > decoded.length)
 					fail();
 
-				System.out.println(new String(decoded));
-				// System.out.println(Arrays.equals(encoded, decoded));
-				assertTrue(Arrays.equals(encoded, decoded));
+				assertTrue(Arrays.equals(source, decoded));
 
 			} catch (Exception e) {
 				LOG.error("Vyjímka při testování komprese", e);
