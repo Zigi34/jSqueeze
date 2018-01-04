@@ -31,6 +31,10 @@ public class RLE implements Compression {
 		} else {
 			sb.append(startChar);
 		}
+
+		String result = sb.toString();
+		if (result.length() > plain.length())
+			return plain;
 		return sb.toString();
 	}
 

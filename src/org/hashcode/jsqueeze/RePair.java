@@ -10,7 +10,6 @@ import org.apache.log4j.Logger;
 public class RePair {
 
 	public byte stopIndex = Byte.MIN_VALUE;
-	public byte firstNonAcsii = (byte) 0x81;
 	private int size = 2;
 
 	private Logger log = Logger.getLogger(RePair.class);
