@@ -1,6 +1,6 @@
 package org.hashcode.jsqueeze;
 
-public class RLE implements Compression {
+public class RLE {
 	public String encode(String plain) {
 		StringBuilder sb = new StringBuilder();
 

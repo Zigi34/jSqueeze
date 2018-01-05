@@ -1,7 +1,7 @@
 package org.hashcode.jsqueeze;
 
 public interface Compression {
-	public String encode(String plainText);
+	public byte[] encode(byte[] data);
 
-	public String decode(String compressText);
+	public byte[] decode(byte[] data);
 }
